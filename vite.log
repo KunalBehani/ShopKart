@@ -1,0 +1,15 @@
+
+> shopkart-frontend@1.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v5.4.21  ready in 119 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: use --host to expose
+1:21:17 PM [vite] vite.config.js changed, restarting server...
+1:21:17 PM [vite] server restarted.
+1:36:46 PM [vite] vite.config.js changed, restarting server...
+1:36:46 PM [vite] server restarted.
