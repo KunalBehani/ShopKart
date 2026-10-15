@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an Axios instance with base configuration
 // withCredentials: true ensures HttpOnly cookies (containing JWT) are sent and received
 const api = axios.create({
-  baseURL: '', // Uses Vite dev server proxy for /customers in local dev
+  baseURL: import.meta.env.VITE_API_URL || '', // Uses Vite dev server proxy for /customers in local dev
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
